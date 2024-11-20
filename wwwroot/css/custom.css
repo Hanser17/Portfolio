@@ -1,0 +1,64 @@
+﻿body {
+}
+
+#foto {
+    width: 200px;
+    margin: 2rem 0;
+    border-radius: 50%;
+}
+
+.seccion-sobre_mi {
+    margin: 5rem 0 10rem 0;
+    color: white;
+}
+
+    .seccion-sobre_mi h4 {
+        margin-bottom: 2rem;
+        font-size: 3rem
+    }
+
+    .seccion-sobre_mi p {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size :1.5rem
+    
+    }
+
+
+.cabecera {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.habilidades {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.skill ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.5rem;
+}
+
+.skill i {
+    color: #0d6efd;
+    font-size: 50px;
+}
+
+.proyectos {
+    margin-bottom: 2rem;
+}
+.letra{
+    color:white;
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}

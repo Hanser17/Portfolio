@@ -1,0 +1,24 @@
+﻿@model IEnumerable<ProyectosModels>
+
+@if(Model is not null)
+{
+    <div class="container  ">
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+            @foreach (var proyecto in Model)
+            {
+                <div class="col proyectos">
+                    <div class="card h-100 glass-effect text-white">
+                        <img src="@proyecto.ImagenURL" class="card-img-top" alt="medical app logo" />
+                        <div class="card-body">
+                            <h5 class="card-title">@proyecto.Titulo</h5>
+                            <p class="card-text">@proyecto.Descripcion</p>
+                            <a href="@proyecto.Link" target="_blank" rel="noreferrer noopener" class="btn btn-primary">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+}
+
